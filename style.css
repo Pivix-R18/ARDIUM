@@ -1,0 +1,141 @@
+/* image principal ./images/Minecraft1.png */
+.Fond_contenaire img {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    /* Préserve le ratio de l'image */
+    min-width: 100%;
+    min-height: 100%; 
+}
+
+/*Position Relative */
+.position_relative {
+    position: relative;
+}
+
+body {
+    margin: 0;
+    top: 0;
+}
+
+/* Nav_Background-color */
+#backgroud-nav {
+    background-color: #121824;
+    width: 100%;
+    height: 3rem;
+    top: 0;
+    position: fixed; 
+}
+
+/* Nav__JoueurConnected */
+.connect {
+   color: white;
+   font-family: 'Arvo', serif;
+   display: flex;
+   flex-direction: row;
+   padding-left: 3%;
+   align-items: center;
+   border-bottom: solid 1px #FF7D58;
+}
+.connect p {
+    font-size: 1.3rem;
+    border-bottom: solid #ffa600a9;
+}
+.color_orange {
+    color: #ffa600;
+}
+.nombre-connect {
+    padding-right: 0.5rem;
+}
+.connect i {
+    color: white;
+    padding-left: 0.5rem;
+}
+
+/* Nav__Connexion/Inscription */
+.inscription {
+    align-items: center;
+}
+.inscription ul{
+    color: #ffa600;
+    font-family: 'Arvo', serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 3%;
+    align-items: center;
+}
+.inscription li {
+    list-style: none;
+    font-size: 1.3rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+.inscription a {
+    color: white;
+    text-decoration: none;
+}
+.inscription a:hover {
+    box-shadow: rgb(187, 176, 25) 0px 20px 20px -5px, rgb(255, 146, 3) 0px 10px 10px -5px;
+    border-bottom: solid 1px #ffa600;
+    transition: all .2s;
+}
+
+/* Nav Bar */
+.nav_contenaire {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nav_contenaire img {
+    width: 7rem;
+    height: 7rem;
+    padding-right: 1.2rem;
+}
+    .nav_contenaire ul {
+        display: flex;
+        flex-direction: row;
+        border-radius: inherit;
+        background: #121824d3;
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font-size: var(--btn-font-size, 1em);
+        color: var(--color-contrast-medium);
+        padding: var(--space-xs) var(--space-md);
+        cursor: pointer;
+        transition: color .2s;
+    }
+    .border_color__contenaire {
+        border-width: 2px;
+        border-style: solid;
+        border-image: linear-gradient(to top, #FF7D58, #FFCC4B ) 1; /* Color border */
+        padding-left: 0px;
+    }
+        .nav_contenaire li {
+            display: flex;
+            flex: row;
+            justify-content: space-around;
+            font-size: 1.5rem;
+            margin-left: 0.7rem;
+            margin-right: 0.7rem;
+            font-family: 'Arvo', serif;
+        }
+        .nav_contenaire a {
+            color: white;
+            text-decoration: none;
+        }
+        .nav_contenaire p {
+            color: rgb(187, 176, 25);
+            font-weight: bold;
+        }
+        .nav_contenaire a:hover {
+            box-shadow: rgb(187, 176, 25) 0px 30px 30px -5px, rgb(255, 146, 3) 0px 20px 20px -5px;
+            border-bottom: solid 1px #ffa600;
+            transition: all .2s;
+        }
+
+  
+  
+  
