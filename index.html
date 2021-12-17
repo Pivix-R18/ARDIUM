@@ -8,6 +8,7 @@
         <!-- CSS -->
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
         <!-- Google Fonts -->
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
@@ -23,22 +24,25 @@
         <div class="Fond_contenaire">
             <img src="./images/Minecraft1.png" alt="Fond Minecraft1">
         </div>
+
         <nav>
             <!-- Nav_JoueurConnecter -->
-            <div id="backgroud-nav" class="position_relative connect">
-                <p class="color_orange nombre-connect">999</p>
-                <p>Joueurs en ligne</p>
-                <i class="fas fa-wifi"></i>
-            </div>
-            <!-- Nav_Connexion/Inscription -->
-            <div class="position_relative inscription">
-                <ul>
-                    <li><a href="#">Connexion</a></li>
-                    <li><i class="fas fa-spa"></i></li>
-                    <li><a href="#">Inscription</a></li>
-                </ul>
-            </div>
+            <div id="backgroud-nav" class="nav-pouette">
+                <div class="position_relative connect">
+                    <p class="color_orange nombre-connect">999</p>
+                    <p>Joueurs en ligne</p>
+                    <i class="fas fa-wifi"></i>
+                </div>
 
+                <!-- Nav_Connexion/Inscription -->
+                <div class="position_relative inscription">
+                    <ul>
+                        <li><a href="#">Connexion</a></li>
+                        <li><i class="fas fa-spa"></i></li>
+                        <li><a href="#">Inscription</a></li>
+                    </ul>
+                </div>
+            </div>
             <div class="position_relative nav_contenaire">
                 <!-- Logo -->
                 <img src="./images/Logo.png" alt="Logo ARDIUM">
@@ -57,5 +61,30 @@
             </div>
         </nav>
 
+        <!-- Section Serveur -->
+        <section class="position_relative">
+            <div class="title">
+                <h1>Ardium</br>
+                Serveur Minecraft PvP Faction Modé</h1>
+                <p class="ajuste">Adresse IP : play.ardium.fr</p>
+            </div>
+            
+            <div class="join">
+                <a href="#" title="Nous rejoindre" target="_blank"><span>Rejoignez l'aventure dès maintenant !</span></a>
+            </div>
+
+            <div class="video">
+                <iframe width="632" height="355" src="https://www.youtube.com/embed/g4YrKgin1VQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section>
+            <div class="background-actus ">
+                <h1>ACTUALITÉS</h1>
+                <div class="position_relative">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, beatae! Nam vel cumque quisquam veritatis unde repellendus optio alias. Rerum numquam amet quo ipsum perspiciatis inventore? Officiis consequatur autem assumenda.</p>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
