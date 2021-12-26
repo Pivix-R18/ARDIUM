@@ -16,12 +16,14 @@
 body {
     margin: 0;
     top: 0;
+    right: 0;
+    color: white;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
 /* Nav_Background-color */
 #backgroud-nav {
-    background-color: #121824;
+    background-color: #1a202c;
     width: 100%;
     height: 3rem;
     top: 0;
@@ -38,7 +40,6 @@ body {
 
 /* Nav__JoueurConnected */
 .connect {
-   color: white;
    font-family: 'Arvo', serif;
    display: flex;
    flex-direction: row;
@@ -56,7 +57,6 @@ body {
     padding-right: 0.5rem;
 }
 .connect i {
-    color: white;
     padding-left: 0.5rem;
 }
 
@@ -105,7 +105,7 @@ body {
         display: flex;
         flex-direction: row;
         border-radius: inherit;
-        background: #121824d3;
+        background: #1a202cd3;
         position: relative;
         display: inline-flex;
         justify-content: center;
@@ -124,7 +124,6 @@ body {
     }
         .nav_contenaire li {
             display: flex;
-            flex: row;
             justify-content: space-around;
             font-size: 1.5rem;
             margin-left: 0.7rem;
@@ -148,7 +147,6 @@ body {
   
 /* Section Serveur */
 .title {
-    color: white;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -161,13 +159,14 @@ body {
 .join {
     font-size: 1.5rem;
     text-align: center;
+    padding-bottom: 4rem;
 }
 .join a {
     text-decoration: none;
     color: #F6BF3D;
 }
 .join span{
-    background-color: #121824;
+    background-color: #1a202c;
     padding: 1rem;
     border-radius: 50px;
 }
@@ -180,27 +179,21 @@ body {
     transition: all 0.3s;
 }
 
-.video {
-    text-align: center;
-    margin-top: 5rem;
-}
-
-
 /* Actualites */
 .background-actus {
-    background-color: #121824;
+    background-color: #1a202c;
     width: 100%;
     height: 100%;
     position: relative;
-    margin-top: 5rem;
     border-top: solid 2px #F6BF3D;
-    color: white;
+    padding-bottom: 1rem;
 }
 .actus {
     text-align: center;
     margin-bottom: 3rem;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 1.8rem;
 }
 .actus-titre {
     padding-left: 20px;
@@ -219,6 +212,7 @@ body {
     margin: auto;
     flex-wrap: wrap;
     width: 80%;
+    padding-bottom: 1.5rem;
 }
 .width {
     background-color: #181a1e;
@@ -259,3 +253,96 @@ body {
     border: solid;
     border-color: #F6BF3D;
 }
+
+
+/* Footer */
+.background-footer {
+    background: #1a202c;
+    border-top: solid 2px #F6BF3D;
+    width: 100%;
+    height: 100%;
+
+}
+.footer {
+    display: flex;
+    margin-top: 1.3rem;
+}
+.footer img {
+    width: 10rem;
+    height: 10rem;
+    border-right: solid 1px #F6BF3D;
+    padding-right: 5rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+.footer-contener {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+.footer-contener a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.856);
+    font-size: 1.3rem;
+    transition: transform 330ms ease-in-out;
+}
+.footer-contener a:hover {
+    color: white;
+    transform: translate(5px, 0);
+}
+.footer-contener h1 {
+    color: #F6BF3D;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+.footer-contener i {
+    color: #F6BF3D;
+}
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8rem;
+    font-weight: bold;
+}
+.footer-logo p {
+    text-align: center;
+    color: #a0aec0;
+    font-size: 1.3rem;
+    margin-top: 0px;
+    font-weight: bold;
+    border-right: solid 1px #F6BF3D;
+}
+.footer-fin {
+    background: #121824;
+    width: 100%;
+    height: 100%;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 13rem;
+    margin-right: 13rem;
+    font-size: 1.3rem;
+}
+.flexbox a {
+    text-decoration: none; 
+    color: white;
+    transition: transform 330ms ease-in-out;
+}
+.flexbox a:hover {
+    text-decoration: underline;
+    color: #F6BF3D;
+}
+.flexbox p {
+    margin-top: 0;
+}
+.flexbox span {
+    color: #F6BF3D;
+}
+
+
+
