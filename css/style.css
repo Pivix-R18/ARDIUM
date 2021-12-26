@@ -2,7 +2,7 @@
 .Fond_contenaire img {
     position: fixed; 
     top: 0; 
-    left: 0; 
+    left: 0;
     /* Préserve le ratio de l'image */
     min-width: 100%;
     min-height: 100%; 
@@ -143,7 +143,7 @@ body {
             border-bottom: solid 1px #ffa600;
             transition: all .2s;
         }
-        
+
 /* Footer */
 .background-footer {
     background: #1a202c;
@@ -212,7 +212,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 20px;
     margin-left: 13rem;
     margin-right: 13rem;
     font-size: 1.3rem;
@@ -233,5 +233,10 @@ body {
     color: #F6BF3D;
 }
 
-
-
+/* Trailer vidéo */
+.video {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
