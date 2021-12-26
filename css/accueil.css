@@ -6,31 +6,33 @@
     font-size: 2rem;
     font-weight: bold;
 }
-.ajuste {
-    margin-top: -1.5rem;
-}
 .join {
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
-    padding-bottom: 4rem;
+    margin-bottom: 10rem;
+    margin-top: 3rem;
+    
 }
 .join a {
     text-decoration: none;
-    color: #F6BF3D;
+    color: #181f2c;
+    text-decoration: underline;
 }
 .join span{
-    background-color: #1a202c;
+    background-color: #F6BF3D;
     padding: 1rem;
-    border-radius: 50px;
+    
 }
-.join:hover {
-    text-decoration: underline;
+.join a:hover span {
+    color: #F6BF3D;
+    text-decoration: none;
     transition: all 0.3s;
-}
-.join:hover span{
     background-color: #181f2c;
-    transition: all 0.3s;
+    border: solid 3px #F6BF3D;
+    border-radius: 50px;
+    transition: all 0.5s;
 }
+
 
 /* Actualites */
 .background-actus {
