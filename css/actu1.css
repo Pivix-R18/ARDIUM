@@ -1,0 +1,43 @@
+.actu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 2rem;
+    font-size: 1.3rem;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+.background {
+    background-color: #a37501ad;
+}
+.background-user {
+    background-color: #a37501ad;
+    padding: 1.5rem;
+}
+.user {
+    margin-right: 1rem;
+    padding: 2rem;
+}
+.user span {
+    color: #FFCC4B;
+}
+.text {
+    padding: 2rem;
+}
+.text h2 {
+    text-align: center;
+    text-decoration: underline #FFCC4B;
+    font-family: 'Arvo', serif;
+    margin-top: 0;
+}
+.text a {
+    text-decoration: none;
+    color: #FFCC4B;
+}
+.text a:hover {
+    color: #ffb700;
+    text-decoration: underline #FFCC4B;
+}
+.text span {
+    color: #FFCC4B;
+}
