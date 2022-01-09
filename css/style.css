@@ -96,10 +96,10 @@ body {
     flex-direction: row;
     justify-content: center;
 }
-.nav_contenaire img {
-    width: 7rem;
-    height: 7rem;
-    padding-right: 1.2rem;
+.nav_logo {
+   position: absolute;
+    width: 0rem;    /* Logo serveur 7rem */
+    height: 0rem;   /* Logo serveur 7rem */
 }
     .nav_contenaire ul {
         display: flex;
