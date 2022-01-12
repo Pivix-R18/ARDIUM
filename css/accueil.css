@@ -14,20 +14,18 @@
 }
 .join a {
     text-decoration: none;
-    color: #181f2c;
-    text-decoration: underline;
+    color: #F6BF3D;
 }
 .join span{
-    background-color: #F6BF3D;
+    background-color: #181f2c;
+    border: solid 3px #F6BF3D;
     border-radius: 50px;
     padding: 1rem;
 }
 .join a:hover span {
     color: #F6BF3D;
-    text-decoration: none;
+    text-decoration: underline;
     transition: all 0.3s;
-    background-color: #181f2c;
-    border: solid 3px #F6BF3D;
     border-radius: 50px;
     transition: all 0.5s;
 }
