@@ -41,3 +41,8 @@
 .text span {
     color: #FFCC4B;
 }
+.text img {
+    width: 40rem;
+    height: 20rem;
+    margin: 0;
+}
